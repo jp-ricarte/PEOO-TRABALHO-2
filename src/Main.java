@@ -4,14 +4,13 @@ import java.util.ArrayList
 ;
 public class Main {
 	static Scanner sc = new Scanner(System.in);
-	static  ArrayList <Disciplina> disciplinas = new ArrayList<Disciplina>();
 	
 	public static void criarDisciplina() {
 		int i = 1;
 		while( i == 1) {
 				System.out.println("Digite o nome da disciplina: ");
 				String disciplina = sc.next();
-				Disciplina d = new Disciplina(disciplina);
+			
 
 				try {
 					File diretorio = new File("disciplinas");
